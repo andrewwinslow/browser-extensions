@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "The Cathedral of Computation",
+  "description": "Replaces the algorithmic with the divine (textually).",
+  "version": "1.0",
+  "author": "Andrew Winslow (andrewwinslow@gmail.com)",
+    
+  "browser_action": {
+    "default_icon": {"19": "icon19.png", "38": "icon38.png"},
+    "default_title": "Turning algorithms into gods..."
+  },
+
+  "content_scripts": [{
+     "matches": ["http://*/*", "https://*/*"],
+     "js": ["replace.js"],
+     "run_at": "document_end"
+  }]
+
+}
+
