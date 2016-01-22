@@ -4,5 +4,5 @@ A browser extension based on the article "The Cathedral of Computation" by Ian B
 
 Instances of words like "algorithm" appearing on webpages are replaced by words like "god".
  
-
+![Cathedral screenshot 1](https://github.com/andrewwinslow/browser-extensions/blob/master/cathedral/screenshot1.png)
 
